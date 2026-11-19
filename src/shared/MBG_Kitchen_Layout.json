@@ -1,0 +1,82 @@
+{
+  "Name": "MBG_Kitchen",
+  "ClassName": "Folder",
+  "Children": [
+    {
+      "Name": "KitchenFloor",
+      "ClassName": "Part",
+      "Size": [64, 0.5, 50],
+      "Position": [0, 0.25, 0],
+      "Color": [235, 225, 205],
+      "Material": "SmoothPlastic",
+      "Anchored": true,
+      "CanCollide": true
+    },
+    {
+      "Name": "MBGSpawn",
+      "ClassName": "SpawnLocation",
+      "Size": [8, 1, 8],
+      "Position": [0, 0.75, 16],
+      "Color": [255, 255, 255],
+      "Material": "Neon",
+      "Anchored": true,
+      "CanCollide": true
+    },
+    {
+      "Name": "StanKarbo",
+      "ClassName": "Part",
+      "Size": [14, 4, 6],
+      "Position": [-18, 2.5, 0],
+      "Color": [230, 168, 0],
+      "Material": "SmoothPlastic",
+      "Anchored": true,
+      "CanCollide": true,
+      "Label": {
+        "Title": "1. STAN KARBO",
+        "Subtitle": "Nasi (10) | Jagung (25)"
+      }
+    },
+    {
+      "Name": "StanProtein",
+      "ClassName": "Part",
+      "Size": [14, 4, 6],
+      "Position": [-9, 2.5, -14],
+      "Color": [214, 69, 65],
+      "Material": "SmoothPlastic",
+      "Anchored": true,
+      "CanCollide": true,
+      "Label": {
+        "Title": "2. STAN PROTEIN",
+        "Subtitle": "Tempe (15) | Telur (35)"
+      }
+    },
+    {
+      "Name": "MejaRakit",
+      "ClassName": "Part",
+      "Size": [12, 4, 6],
+      "Position": [9, 2.5, -14],
+      "Color": [41, 128, 185],
+      "Material": "SmoothPlastic",
+      "Anchored": true,
+      "CanCollide": true,
+      "Label": {
+        "Title": "3. MEJA RAKIT MBG",
+        "Subtitle": "1 Karbo + 1 Protein = 2x Harga!"
+      }
+    },
+    {
+      "Name": "LoketJual",
+      "ClassName": "Part",
+      "Size": [14, 4, 6],
+      "Position": [18, 2.5, 0],
+      "Color": [39, 174, 96],
+      "Material": "SmoothPlastic",
+      "Anchored": true,
+      "CanCollide": true,
+      "Label": {
+        "Title": "4. LOKET JUAL SEKOLAH",
+        "Subtitle": "Jual Paket MBG -> Dapat Koin!"
+      }
+    }
+  ]
+}
